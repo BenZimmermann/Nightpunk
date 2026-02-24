@@ -40,7 +40,7 @@ Nightpunk is set in a dark, futuristic cyberpunk world where technology controls
 - Game sometimes crashes on stairs.  
 
 ## Authors
-*Project Lead:*  [Matthäus](https://github.com/matthaeuspaul)
-*Lead Artist:*  Ben Zimmermann
-*Lead Programmer:*  [Samil](https://github.com/sam77il)
-*Programmer:*  [Furkan](https://github.com/FurkanO7)
+- *Project Lead:*  [Matthäus](https://github.com/matthaeuspaul)
+- *Lead Artist:*  Ben Zimmermann
+- *Lead Programmer:*  [Samil](https://github.com/sam77il)
+- *Programmer:*  [Furkan](https://github.com/FurkanO7)
