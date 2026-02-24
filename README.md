@@ -39,6 +39,9 @@ Nightpunk is set in a dark, futuristic cyberpunk world where technology controls
 - Sometimes audio gets stuck in a loop.  
 - Game sometimes crashes on stairs.  
 
+## NOTE
+-it only works on local servers such as Xampp
+
 ## Authors
 - *Project Lead:*  [Matthäus](https://github.com/matthaeuspaul)
 - *Lead Artist:*  Ben Zimmermann
