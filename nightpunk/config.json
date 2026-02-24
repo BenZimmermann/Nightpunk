@@ -1,0 +1,318 @@
+{
+  "global": {
+    "dev": false,
+    "tileSize": 50,
+    "width": 1024,
+    "height": 600,
+    "tiles": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X",
+      "Y",
+      "Z"
+    ],
+    "blocker": "ABCDEFGHIMNOPQRSTUVWZ"
+  },
+  "defaultSettings": {
+    "sound": {
+      "volume": 100,
+      "music": 100
+    },
+    "controls": {
+      "walkLeft": "a",
+      "walkRight": "d",
+      "jump": "w",
+      "attack": " ",
+      "itemslot1": "1",
+      "itemslot2": "2",
+      "itemslot3": "3",
+      "itemslot4": "4",
+      "interact": "f",
+      "drop": "g",
+      "jumpperk": "q",
+      "speedperk": "e",
+      "instakillperk": "x"
+    },
+    "language": "de"
+  },
+  "shop": {
+    "items": [
+      {
+        "item": "katana",
+        "amount": 1,
+        "price": 50
+      },
+      {
+        "item": "hdd",
+        "amount": 1,
+        "price": 5
+      }
+    ],
+    "perks": [
+      {
+        "perk": "speed",
+        "price": 200
+      },
+      {
+        "perk": "jump",
+        "price": 150
+      },
+      {
+        "perk": "instakill",
+        "price": 225
+      }
+    ]
+  },
+  "levels": [
+    {
+      "name": "tutorial",
+      "label": "Tutorial Map",
+      "level": 1,
+      "enemies": [
+        {
+          "id": 1,
+          "type": "bot",
+          "health": 200,
+          "position": {
+            "x": 200,
+            "y": 300
+          },
+          "items": [
+            {
+              "name": "katana",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": 1,
+          "name": "katana",
+          "label": "Katana",
+          "amount": 1,
+          "height": 50,
+          "width": 50,
+          "position": {
+            "x": 5,
+            "y": 12
+          }
+        },
+        {
+          "id": 2,
+          "name": "mantisblade",
+          "label": "Mantisblade",
+          "amount": 1,
+          "height": 50,
+          "width": 50,
+          "position": {
+            "x": 6,
+            "y": 12
+          }
+        },
+        {
+          "id": 3,
+          "name": "hdd",
+          "label": "HDD",
+          "amount": 1,
+          "height": 50,
+          "width": 50,
+          "position": {
+            "x": 7,
+            "y": 12
+          }
+        },
+        {
+          "id": 4,
+          "name": "ssd",
+          "label": "SSD",
+          "amount": 1,
+          "height": 50,
+          "width": 50,
+          "position": {
+            "x": 8,
+            "y": 12
+          }
+        },
+        {
+          "id": 5,
+          "name": "railgun",
+          "label": "Railgun",
+          "amount": 1,
+          "height": 50,
+          "width": 50,
+          "position": {
+            "x": 9,
+            "y": 12
+          }
+        }
+      ],
+      "coins": [
+        {
+          "id": 1,
+          "amount": 500,
+          "height": 40,
+          "width": 50,
+          "position": {
+            "x": 15,
+            "y": 12
+          }
+        }
+      ],
+      "map": [
+        "AAAAAAAAA            AAAAAAAAAAAAAAAAAAAAAAA             NAAAAAAAAAAAA",
+        "AAAAAAAAA            AAAAAAAAAAAAAAAAAAAAAAA             NAARAAAAAAAAA",
+        "AAAAAAAAA                NAAAAAAAAAAAAAAAAAA             NAAAAAADAAAAA",
+        "ALLLLLLLA                      NAAAAAEAAAAAX             OAAAAAAAAP  A",
+        "AAAAAAAAA                      NAAAAARAAAAAY                         A",
+        "AAAAAAAAA                      OAAAAAAAARAAAAP                       A",
+        "ALLLLLLLA                                       STU                  A",
+        "F                                                    STTU            A",
+        "A                                                                    A",
+        "F                                                                    Q",
+        "A                                                          STTTU    VA",
+        "A                                                                   NA",
+        "ALLK          JLLK                                 VAAAAW           NA",
+        "AAACABAAAW   VACABAAAFG                     STTU   NAADAM           NA",
+        "ADDAAEAAAM   NDAAEAAAAAFG       JK   JK            NAAAAM  JLLLLK   NA",
+        "AAAAAAAAAAAABAAAAAAAAAAAAAAAABBCAAAACBAAAACAAAAAAAAAAAAAABCAAAACAAADAA"
+      ]
+    },
+    {
+      "name": "districta",
+      "label": "Disctrict A",
+      "level": 2,
+      "enemies": [
+        {
+          "id": 1,
+          "type": "bot",
+          "health": 200,
+          "position": {
+            "x": 200,
+            "y": 300
+          },
+          "items": [
+            {
+              "name": "ssd",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": 1,
+          "name": "katana",
+          "label": "Katana",
+          "amount": 1,
+          "height": 50,
+          "width": 50,
+          "position": {
+            "x": 5,
+            "y": 12
+          }
+        },
+        {
+          "id": 2,
+          "name": "mantisblade",
+          "label": "Mantisblade",
+          "amount": 1,
+          "height": 50,
+          "width": 50,
+          "position": {
+            "x": 6,
+            "y": 12
+          }
+        },
+        {
+          "id": 3,
+          "name": "hdd",
+          "label": "HDD",
+          "amount": 1,
+          "height": 50,
+          "width": 50,
+          "position": {
+            "x": 7,
+            "y": 12
+          }
+        },
+        {
+          "id": 4,
+          "name": "ssd",
+          "label": "SSD",
+          "amount": 1,
+          "height": 50,
+          "width": 50,
+          "position": {
+            "x": 8,
+            "y": 12
+          }
+        },
+        {
+          "id": 5,
+          "name": "railgun",
+          "label": "Railgun",
+          "amount": 1,
+          "height": 50,
+          "width": 50,
+          "position": {
+            "x": 9,
+            "y": 12
+          }
+        }
+      ],
+      "coins": [
+        {
+          "id": 1,
+          "amount": 500,
+          "height": 40,
+          "width": 50,
+          "position": {
+            "x": 15,
+            "y": 12
+          }
+        }
+      ],
+      "map": [
+        "AAAAAAAAA            AAAAAAAAAAAAAAAAAAAAAAM             NAAAAAAAAAAAM        VAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA         VAAAAAAAA",
+        "AAAAAAAAA            AAAAAAAAAAAAAAAAAAAAAAM             NALLLLLLLLLAM        VAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA          VAAAAAAAA",
+        "AAAAAAAAA            AAAAAAAAAAAAAAAAAAAAAAM             NATTTTTTTTTAM               NAAAAAAAAAAAAAAAAAAAAAAAAX                  A",
+        "AAAAAAAAA                AAAAAAAAAAAAAAAAAAM             NALLLLLLLLLAM               NAAAAAAAAAAAAAAAAAAAAAAAAY                  A",
+        "ALLLLLLLA                      AAAAAAAAAAAAM             OAAAAAAAAAAAw               PAAAW          VAAAAAAAAAAA                 A",
+        "AAAAAAAAA                      VAAAAAAAAAAAW                                                                                     R",
+        "A                                                                                                                                A",
+        "A                                                                                                                STTU            A",
+        "F                                                                                                                                Q",
+        "A                                                                                                                       JLK      A",
+        "AW                                                  JLLLLK                                 VAAAAW                      VAAAW     A",
+        "AM                                                 VAAACCAAAAFG             JK JK    STU   NAAAAM             HIACCBAAAAAAABCBCAAA",
+        "AM    JLLLLK                              STTTTU   NAAAAAAAAAAAFG          VAAAAAW         NAARAM           HIAAAAAAAARAAAAAAAAAAA",
+        "AAAAAAAABBCBAAABAAAFG                              NAAAAAAFAAAAAAFG        NAAAAAM         NAAAAAABACAACCAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "AAAAAAAAAAFAAAAAAAAAAFG         VAAAAAW            NAADAAAAAAAAAAAAFG      NAAAAAM  JLLLK  NAAAAAAAAFAAAAAAAAAAFAAAAAAAAARAAAAAAAA",
+        "AAAAAEAAAAAAAADAAEAAAAAFG       NAAAAAM            NAAAAAAAAAAAAAAAAAAABCAAAAAAAAAACCAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAFAAAAAAA",
+        "AAAAAAAAAAAAAAAAAAAAAAAAAAAAABBCAAAAAAAAAACAAAAAAAAAAAAAABCAAAACAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAAAAAAAAAA"
+      ]
+    }
+  ]
+}

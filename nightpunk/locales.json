@@ -1,0 +1,156 @@
+{
+  "de": {
+    "titleScreenMessage": "Drücke Leertaste um das Spiel zu starten.",
+
+    "settingsScreenTitle": "Einstellungen",
+
+    "settingsScreenAudioTitle": "Audio",
+    "settingsScreenSoundVolume": "Sounds",
+    "settingsScreenSoundMusic": "Musik",
+
+    "settingsScreenLanguageTitle": "Sprache",
+    "settingsScreenLanguageGerman": "Deutsch",
+    "settingsScreenLanguageEnglish": "Englisch",
+
+    "settingsScreenControlsTitle": "Steuerung",
+    "settingsScreenControlsWalkLeft": "Nach links laufen",
+    "settingsScreenControlsWalkRight": "Nach rechts laufen",
+    "settingsScreenControlsJump": "Springen",
+    "settingsScreenControlsAttack": "Attacke",
+    "settingsScreenControlsItemSlot1": "Item Slot 1",
+    "settingsScreenControlsItemSlot2": "Item Slot 2",
+    "settingsScreenControlsItemSlot3": "Item Slot 3",
+    "settingsScreenControlsItemSlot4": "Item Slot 4",
+    "settingsScreenControlsInteract": "Interagieren",
+    "settingsScreenControlsThrow": "Wegwerfen",
+    "settingsScreenPerkJump": "Jumpboost Perk",
+    "settingsScreenPerkSpeed": "Speedboost Perk",
+    "settingsScreenPerkInstakill": "Instakill Perk",
+
+    "settingsScreenDefaultMessage": "Bitte wähle eine Einstellung aus.",
+
+    "characterSelectionScreenName": "Name",
+    "characterSelectionScreenType": "Typ",
+    "characterSelectionScreenLevel": "Level",
+    "characterSelectionScreenCoins": "Coins",
+    "characterSelectionScreenStats": "Stats",
+    "characterSelectionScreenTitle": "Charakterauswahl",
+
+    "characterCreationScreenTitle": "Charaktererstellung",
+    "characterCreationScreenName": "Name",
+    "characterCreationScreenType": "Typ",
+    "characterCreationScreenTypeNet": "Netrunner",
+    "characterCreationScreenTypePunk": "Cyberpunk (SOON)",
+    "characterCreationScreenTypePsycho": "Cyberpsycho (SOON)",
+
+    "levelSelectionScreenTitle": "Levelauswahl",
+    "levelSelectionScreenName": "Level Name",
+    "levelSelectionScreenLevel": "Level",
+    "levelSelectionScreenEnemies": "Gegneranzahl",
+    "levelSelectionScreenItems": "Itemrewards",
+
+    "shopScreenBuy": "Kaufen für",
+    "pauseMenuTitle": "Pausemenü",
+
+    "statsScreenKills": "Kills",
+    "statsScreenDeaths": "Tode",
+    "statsScreenKD": "KD",
+
+    "notifyCharacterTitle": "Charakter",
+    "notifyCharacterSucessfullyDeleted": "Charakter erfolgreich gelöscht.",
+    "notifyCharacterSucessfullyCreated": "Charakter erfolgreich erstellt.",
+
+    "notifyInventoryTitle": "Inventar",
+    "notifyInventorySlotsTaken": "Alle Slots sind besetzt. Item konnte nicht hinzugefügt werden.",
+
+    "notifyLevelTitle": "Level",
+    "notifyLevelNotKilledAll": "Du hast noch nicht alle Gegner besiegt",
+
+    "notifyPerksTitle": "Perks",
+    "notifyPerksSpeedYes": "Speedboost ist aktiv",
+    "notifyPerksInstakillNot": "Du hast kein Instakill Perk",
+    "notifyPerksInstakillYes": "Instakill ist aktiv",
+    "notifyPerksSpeedNot": "Du hast kein Speedboost Perk",
+    "notifyPerksJumpYes": "Jumpboost ist aktiv",
+    "notifyPerksJumpNot": "Du hast kein Jumpboost Perk",
+
+    "notifySettingsTitle": "Einstellungen"
+  },
+  "en": {
+    "titleScreenMessage": "Press Space to start the game.",
+
+    "settingsScreenTitle": "Settings",
+
+    "settingsScreenAudioTitle": "Audio",
+    "settingsScreenSoundVolume": "Sounds",
+    "settingsScreenSoundMusic": "Music",
+
+    "settingsScreenLanguageTitle": "Language",
+    "settingsScreenLanguageGerman": "German",
+    "settingsScreenLanguageEnglish": "English",
+
+    "settingsScreenControlsTitle": "Controls",
+    "settingsScreenControlsWalkLeft": "Walk left",
+    "settingsScreenControlsWalkRight": "Walk right",
+    "settingsScreenControlsJump": "Jump",
+    "settingsScreenControlsAttack": "Attack",
+    "settingsScreenControlsItemSlot1": "Item Slot 1",
+    "settingsScreenControlsItemSlot2": "Item Slot 2",
+    "settingsScreenControlsItemSlot3": "Item Slot 3",
+    "settingsScreenControlsItemSlot4": "Item Slot 4",
+    "settingsScreenControlsInteract": "Interact",
+    "settingsScreenControlsThrow": "Throw",
+    "settingsScreenPerkJump": "Jump Boost Perk",
+    "settingsScreenPerkSpeed": "Speed Boost Perk",
+    "settingsScreenPerkInstakill": "Instakill Perk",
+
+    "settingsScreenDefaultMessage": "Please select a setting.",
+
+    "characterSelectionScreenName": "Name",
+    "characterSelectionScreenType": "Type",
+    "characterSelectionScreenLevel": "Level",
+    "characterSelectionScreenCoins": "Coins",
+    "characterSelectionScreenStats": "Stats",
+    "characterSelectionScreenTitle": "Character Selection",
+
+    "characterCreationScreenTitle": "Character Creation",
+    "characterCreationScreenName": "Name",
+    "characterCreationScreenType": "Type",
+    "characterCreationScreenTypeNet": "Netrunner",
+    "characterCreationScreenTypePunk": "Cyberpunk (SOON)",
+    "characterCreationScreenTypePsycho": "Cyberpsycho (SOON)",
+
+    "levelSelectionScreenTitle": "Level Selection",
+    "levelSelectionScreenName": "Level Name",
+    "levelSelectionScreenLevel": "Level",
+    "levelSelectionScreenEnemies": "Number of Enemies",
+    "levelSelectionScreenItems": "Item Rewards",
+
+    "shopScreenBuy": "Buy for",
+    "pauseMenuTitle": "Pause Menu",
+
+    "statsScreenKills": "Kills",
+    "statsScreenDeaths": "Deaths",
+    "statsScreenKD": "KD",
+
+    "notifyCharacterTitle": "Character",
+    "notifyCharacterSucessfullyDeleted": "Character successfully deleted.",
+    "notifyCharacterSucessfullyCreated": "Character successfully created.",
+
+    "notifyInventoryTitle": "Inventory",
+    "notifyInventorySlotsTaken": "All slots are taken. Item could not be added.",
+
+    "notifyLevelTitle": "Level",
+    "notifyLevelNotKilledAll": "You have not defeated all enemies yet",
+
+    "notifyPerksTitle": "Perks",
+    "notifyPerksSpeedYes": "Speed boost is active",
+    "notifyPerksInstakillYes": "Instakill is active",
+    "notifyPerksInstakillNot": "You don't have an Instakill Perk",
+    "notifyPerksSpeedNot": "You don't have a Speed Boost Perk",
+    "notifyPerksJumpYes": "Jump boost is active",
+    "notifyPerksJumpNot": "You don't have a Jump Boost Perk",
+
+    "notifySettingsTitle": "Settings"
+  }
+}
